@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+
+    <string name="question_text">Placeholder for first question...</string>
+    <string name="true_button">True</string>
+    <string name="false_button">False</string>
+    <string name="question_1">Your zodiac sign provides insight into some specific traits, desires, and attitudes you have toward life.</string>
+    <string name="question_2">There are 13 zodiac signs.</string>
+    <string name="question_3">The are 3 elements that each sign belongs to: air, fire, and water.</string>
+    <string name="question_4">Astrology is the study of the movements and relative positions of celestial bodies interpreted as having an influence on human affairs and the natural world.</string>
+    <string name="question_5">Each sign begins on the 1st day of the month and ends on the last.</string>
+
+
+
+
+</resources>
