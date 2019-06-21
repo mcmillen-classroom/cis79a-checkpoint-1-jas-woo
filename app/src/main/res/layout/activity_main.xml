@@ -6,8 +6,6 @@
     android:orientation="vertical"
     android:background="@color/colorBG">
 
-
-
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -19,20 +17,26 @@
             android:layout_height="match_parent"
             android:scaleType="fitEnd"
             android:src="@drawable/zodiac_image"
-             />
+         />
+
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
+
     <TextView
         android:id="@+id/text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/question_text"
         android:textSize="24dp"
+        android:textColor="@color/colorWhite"
+        android:fontFamily="casual"
+        android:textStyle="bold"
         />
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -42,6 +46,7 @@
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:text="@string/true_button" />
+
         <Button
             android:id="@+id/false_button"
             android:layout_width="wrap_content"
@@ -49,11 +54,17 @@
             android:text="@string/false_button" />
 
     </LinearLayout>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/feedback_textview"
         android:textSize="20dp"
-        android:text="@string/feedback_box"/>
+        android:text="@string/feedback_box"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif-monospace"
+        android:textStyle="bold"
+        />
+
 </LinearLayout>
 </FrameLayout>
